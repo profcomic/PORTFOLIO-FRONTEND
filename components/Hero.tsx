@@ -69,7 +69,9 @@ const Hero: React.FC = () => {
               <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white">
                 ANTHONNEY MWANZAH
               </h1>
-              <h5>Nerd by Nature. Human by Design.</h5>
+              <h5 className="text-slate-300 text-lg md:text-xl leading-relaxed mb-6">
+                Nerd by Nature. Human by Design.
+              </h5>
               
               <p className="text-emerald-400 text-lg mb-2">$ describe --role</p>
               <p className="text-slate-300 text-xl md:text-2xl leading-relaxed mb-6">

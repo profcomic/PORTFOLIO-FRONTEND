@@ -66,8 +66,8 @@ const About = () => {
           I'm a passionate full-stack developer with expertise in building modern, scalable web applications. 
           I love turning complex problems into simple, beautiful, and intuitive solutions.
           Also a relentless trier of everything—a trait that drives my "Multicore" approach to technology. 
-          My work thrives at the intersection of Full-Stack Development (Django/React), Data Analytics (Python/SQL), 
-          and Cybersecurity, all fueled by a deep-seated obsession with AI-VR and Space Exploration.
+          My work thrives at the intersection of Full-Stack Development, Data Analytics, and Cybersecurity, 
+          all fueled by a deep-seated obsession with AI-VR and Space Exploration.
         </p>
       </motion.div>
 
