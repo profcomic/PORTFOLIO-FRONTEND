@@ -67,7 +67,7 @@ The Frontend will be available at: `http://localhost:3000`
 
 ## Other Stacks can be Accessed through
 
-- **Github**: [Frontend repo](https://github.com/profcomic/PORTFOLIO-BACKEND)
+- **Github**: [Backend repo](https://github.com/profcomic/PORTFOLIO-BACKEND)
 - **Github**: [Fullstack repo](https://github.com/profcomic/MY-PORTFOLIO)
 
 
