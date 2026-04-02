@@ -32,7 +32,10 @@ const ProjectsSection = () => {
             tech_stack: ["Django"],
             github_url: "https://github.com/profcomic/BBC DJANGO WEBSITE",
             live_demo: "https://bbcmsa.com",
-            image: "/api/placeholder/400/300"
+            image: "/api/placeholder/400/300",
+            project_date: "2024-01-15",
+            created_at: "2024-01-15T10:00:00Z",
+            updated_at: "2024-01-15T10:00:00Z"
           },
           {
             id: 2,
@@ -41,7 +44,10 @@ const ProjectsSection = () => {
             tech_stack: ["Django"],
             github_url: "https://github.com/pofcomic/floqpulse",
             live_demo: "https://floqpulse.com",
-            image: "/api/placeholder/400/300"
+            image: "/api/placeholder/400/300",
+            project_date: "2024-02-20",
+            created_at: "2024-02-20T14:30:00Z",
+            updated_at: "2024-02-20T14:30:00Z"
           },
           {
             id: 3,
@@ -50,7 +56,10 @@ const ProjectsSection = () => {
             tech_stack: ["Flask", "Python", "SQLite", "Bootstrap"],
             github_url: "https://github.com/yourusername/blog-platform",
             live_demo: "https://blog-demo.com",
-            image: "/api/placeholder/400/300"
+            image: "/api/placeholder/400/300",
+            project_date: "2024-03-10",
+            created_at: "2024-03-10T09:15:00Z",
+            updated_at: "2024-03-10T09:15:00Z"
           }
         ])
         setLoading(false)
