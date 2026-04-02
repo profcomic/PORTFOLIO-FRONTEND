@@ -65,6 +65,12 @@ The Frontend will be available at: `http://localhost:3000`
 1. Run `npm run build`
 2. Deploy to Vercel, Netlify, or similar
 
+## Other Stacks can be Accessed through
+
+- **Github**: [Frontend repo](https://github.com/profcomic/PORTFOLIO-BACKEND)
+- **Github**: [Fullstack repo](https://github.com/profcomic/MY-PORTFOLIO)
+
+
 ## Lets LinkUp and share those insights
 
 - **Email**: professorcomic1@gmail.com
