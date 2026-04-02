@@ -7,6 +7,9 @@ export default function ScrollProgress() {
   const [scrollProgress, setScrollProgress] = useState(0)
 
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') return
+    
     const handleScroll = () => {
       const totalHeight = document.documentElement.scrollHeight - window.innerHeight
       const currentScroll = window.scrollY

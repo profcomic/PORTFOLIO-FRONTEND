@@ -10,7 +10,7 @@ interface Position {
 }
 
 export default function DraggableStatus() {
-  const [position, setPosition] = useState<Position>({ x: 32, y: window.innerHeight - 200 })
+  const [position, setPosition] = useState<Position>({ x: 32, y: typeof window !== 'undefined' ? window.innerHeight - 200 : 500 })
   const [isDragging, setIsDragging] = useState(false)
   const dragRef = useRef<HTMLDivElement>(null)
   const dragStartPos = useRef<Position>({ x: 0, y: 0 })
@@ -49,8 +49,8 @@ export default function DraggableStatus() {
       const newY = elementStartPos.current.y + deltaY
 
       // Keep within viewport bounds
-      const maxX = window.innerWidth - 150 // approximate width of status bar
-      const maxY = window.innerHeight - 100 // approximate height of status bar
+      const maxX = (typeof window !== 'undefined' ? window.innerWidth : 1000) - 150 // approximate width of status bar
+      const maxY = (typeof window !== 'undefined' ? window.innerHeight : 1000) - 100 // approximate height of status bar
       const minX = 0
       const minY = 0
 

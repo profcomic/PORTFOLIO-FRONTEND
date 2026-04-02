@@ -25,6 +25,9 @@ export default function HomePage() {
   useEffect(() => {
     setIsVisible(true)
     
+    // Only run on client side
+    if (typeof window === 'undefined') return
+    
     const handleScroll = () => {
       const sections = ['home', 'about', 'projects', 'contact']
       const scrollPosition = window.scrollY + 100
@@ -178,7 +181,11 @@ export default function HomePage() {
 
       {/* Floating Action Button */}
       <motion.button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        onClick={() => {
+          if (typeof window !== 'undefined') {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }
+        }}
         className="fixed bottom-8 right-8 z-40 p-4 bg-primary-500 text-white rounded-full shadow-lg hover-lift"
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: activeSection !== 'home' ? 1 : 0, scale: activeSection !== 'home' ? 1 : 0 }}

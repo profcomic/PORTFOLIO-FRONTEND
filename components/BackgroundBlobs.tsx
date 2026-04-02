@@ -8,6 +8,9 @@ export default function BackgroundBlobs() {
   const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') return
+    
     setIsClient(true)
     const handleMouseMove = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY })
