@@ -65,6 +65,9 @@ const About = () => {
         <p className="text-slate-600 dark:text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed">
           I'm a passionate full-stack developer with expertise in building modern, scalable web applications. 
           I love turning complex problems into simple, beautiful, and intuitive solutions.
+          Also a relentless trier of everything—a trait that drives my "Multicore" approach to technology. 
+          My work thrives at the intersection of Full-Stack Development (Django/React), Data Analytics (Python/SQL), 
+          and Cybersecurity, all fueled by a deep-seated obsession with AI-VR and Space Exploration.
         </p>
       </motion.div>
 
@@ -184,6 +187,9 @@ const About = () => {
           When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
           enjoying outdoor activities, or reading about the latest trends in AI and machine learning. 
           I believe in continuous learning and staying curious about the world around us.
+
+          Beyond the screen, I serve as a Learning Architect and STEM Ambassador committed to bridging the 
+          digital divide. Whether I am architecting secure web applications, extracting data-driven insights, or designing transformative learning experiences, I focus on building human-centered solutions that are unequivocally impactful.
         </p>
       </motion.div>
     </div>
