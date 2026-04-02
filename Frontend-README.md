@@ -1,6 +1,6 @@
 # ANTHONNEY MWANZAH - Portfolio Website
 
-A modern, full-stack portfolio website built with Django REST API backend and Next.js frontend.
+A modern, frontend part of the  full-stack portfolio website built with Next.js.
 
 ## 📁 Project Structure[Frontend]
 
