@@ -25,7 +25,7 @@ export default function ScrollProgress() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 right-0 h-2 bg-gray-200 dark:bg-gray-800 z-[9999]"
+      className="fixed bottom-0 left-0 right-0 h-2 bg-gray-200 dark:bg-gray-800 z-[9999]"
       initial={{ scaleX: 0 }}
       animate={{ scaleX: scrollProgress / 100 }}
       transition={{ duration: 0.2, ease: "easeOut" }}
