@@ -6,7 +6,7 @@ import ProfileImage from './ProfileImage';
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
   const [cursorVisible, setCursorVisible] = useState(true);
-  const fullText = "Architecting scalable systems with a Multicore approach.";
+  const fullText = "Architecting scalable systems with a Multicore approach.....";
 
   useEffect(() => {
     let i = 0;
