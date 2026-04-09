@@ -60,9 +60,9 @@ const About = () => {
       title: "Volunteer",
       company: "Taifa Teule Network - Nrb",
       period: "September, 2024 - Present",
-      description: "I serve as a mentor and facilitator for emerging leaders, guiding them through leadership development and community impact strategies. 
-        My contribution extends into the Communications Department, where I volunteer my technical expertise in Graphic Design and Video Editing to craft 
-        compelling visual narratives that amplify the network's mission. By merging leadership mentorship with digital storytelling, 
+      description: "I serve as a mentor and facilitator for emerging leaders, guiding them through leadership development and community impact strategies. \
+        My contribution extends into the Communications Department, where I volunteer my technical expertise in Graphic Design and Video Editing to craft \
+        compelling visual narratives that amplify the network's mission. By merging leadership mentorship with digital storytelling, \
         I help bridge the gap between visionary ideas and impactful community engagement."
     },
     {
