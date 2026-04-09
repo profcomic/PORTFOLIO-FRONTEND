@@ -6,7 +6,7 @@ import ProfileImage from './ProfileImage';
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
   const [cursorVisible, setCursorVisible] = useState(true);
-  const fullText = "Building scalable systems with Python & TypeScript.";
+  const fullText = "Architecting scalable systems with a Multicore approach.";
 
   useEffect(() => {
     let i = 0;
@@ -104,10 +104,11 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="space-y-6"
           >
-            <p className="text-slate-600 dark:text-slate-400 text-lg max-w-2xl mx-auto">
-              Full-stack developer passionate about creating elegant solutions to complex problems. 
-              Specializing in modern web technologies and scalable architecture.
-            </p>
+          <p className="text-slate-600 dark:text-slate-400 text-lg max-w-2xl mx-auto">
+            A relentless problem-solver dedicated to turning complex challenges into 
+            simple, intuitive solutions. Expert in architecting scalable systems 
+            and exploring the frontiers of Space-Tech and AI.
+          </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <motion.a
