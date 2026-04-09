@@ -94,8 +94,9 @@ const About = () => {
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">About Me</h2>
-         <h6 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-           Bridging the stars and the digital frontier through a 'Multicore' approach to technology.</h6>
+         <h3 className="text-xl font-bold mb-8 text-slate-800 dark:text-slate-200">
+          Bridging the stars and the digital frontier through a 'Multicore' approach to technology.
+        </h3>
         <p className="text-slate-600 dark:text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed">
           I'm a multi-disciplinary professional and a relentless explorer of the "next." 
           As the Founder of Phroneo Spectacular Space, I operate at the intersection of Full-Stack Development, 
