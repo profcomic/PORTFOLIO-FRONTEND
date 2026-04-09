@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { Code2, Database, Globe, Smartphone, Server, Cloud } from 'lucide-react'
+import { Code2, Database, Globe, Smartphone, Server, Cloud, Rocket, ShieldCheck, Users } from 'lucide-react'
 
 const About = () => {
   const skills = [
@@ -45,11 +45,11 @@ const About = () => {
       description: "I oversee digital operations and technical training, ensuring the seamless integration of technology within professional environments."
     },
     {
-      title: "Freelanced Techie",
+      title: "Freelancer Techie",
       company: "Remote",
       period: "2025 - Present",
       description: "Creating responsive websites and contributed to various client projects encompassing Design, Data and General technological solutions."
-    }
+    },
     {
       title: "Full Stack Developer",
       company: "Phroneo Spectacular Space",
@@ -94,7 +94,9 @@ const About = () => {
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">About Me</h2>
-         <h6>Bridging the stars and the digital frontier through a "Multicore" approach to technology.<h6>
+         <h6 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
+           Bridging the stars and the digital frontier through a "Multicore" approach to technology.</h6>
+         <h6>
         <p className="text-slate-600 dark:text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed">
           I'm a multi-disciplinary professional and a relentless explorer of the "next." 
           As the Founder of Phroneo Spectacular Space, I operate at the intersection of Full-Stack Development, 
