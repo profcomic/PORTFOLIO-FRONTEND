@@ -69,16 +69,16 @@ const About = () => {
       title: "Tech Dept Volunteer",
       company: "Swahilipot Hub Foundation - Msa",
       period: "April, 2024 - Present",
-      description: "I leverage my "Multicore" technical background to foster a vibrant innovation ecosystem by 
-      providing hands-on mentorship in software & Website development and general tech .I play a key role in facilitating technical 
-      workshops that drive digital literacy while supporting the hub’s infrastructure to ensure a seamless environment for community members."
+      description: "I leverage my 'Multicore' technical background to foster a vibrant innovation ecosystem by \
+      providing hands-on mentorship in software & Website development and general tech .I play a key role in facilitating technical \
+      workshops that drive digital literacy while supporting the hub's infrastructure to ensure a seamless environment for community members."
     },
     {
       title: "Assistant Office Administrator - Internship",
       company: "Silverfox Lotella  - Msa",
       period: "June, 2023 - September, 2023",
-      description: "In this role, I streamlined office operations by managing administrative workflows, client communications, and detailed documentation. 
-      Leveraging my background in Business Management, I ensured organizational efficiency and supported the management team in maintaining high service 
+      description: "In this role, I streamlined office operations by managing administrative workflows, client communications, and detailed documentation. \
+      Leveraging my background in Business Management, I ensured organizational efficiency and supported the management team in maintaining high service \
       standards within a fast-paced environment."
     },
 
@@ -95,8 +95,7 @@ const About = () => {
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">About Me</h2>
          <h6 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-           Bridging the stars and the digital frontier through a "Multicore" approach to technology.</h6>
-         <h6>
+           Bridging the stars and the digital frontier through a 'Multicore' approach to technology.</h6>
         <p className="text-slate-600 dark:text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed">
           I'm a multi-disciplinary professional and a relentless explorer of the "next." 
           As the Founder of Phroneo Spectacular Space, I operate at the intersection of Full-Stack Development, 
@@ -106,7 +105,7 @@ const About = () => {
           Furthermore, I love turning complex problems into simple, beautiful, and intuitive solutions. 
           My background in Business Management combined with technical expertise in computer science allows me to build 
           scalable web applications that are as functional as they are visionary. 
-          Whether I am architecting a digital ecosystem or advocating for STEM equity, I bring an analytical, "multicore" 
+          Whether I am architecting a digital ecosystem or advocating for STEM equity, I bring an analytical, 'multicore' 
           perspective to every challenge.
           As a dedicated STEM Ambassador, I am committed to ensuring that the tools of the future—from immersive VR 
           simulations to AI-driven insights—are accessible to everyone.
@@ -290,57 +289,6 @@ const About = () => {
     </div>
   </div>
 </motion.div>
-     </motion.div>
-           {/* Core Expertise */}
-           <motion.div
-             initial={{ opacity: 0, y: 30 }}
-             whileInView={{ opacity: 1, y: 0 }}
-             viewport={{ once: true }}
-             transition={{ duration: 0.8, delay: 0.6 }}
-             className="mt-20 text-center"
-             >
-             <h4 className="text-2xl font-bold mb-12 text-slate-800 dark:text-slate-200">
-               Core Expertise
-             </h4>
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-4">
-               <div className="flex flex-col items-center">
-                 <div className="p-4 bg-blue-100 dark:bg-blue-900/30 rounded-2xl mb-4 text-blue-600 dark:text-blue-400">
-                   <Code2 size={32} />
-                 </div>
-                 <h5 className="font-bold mb-2 dark:text-white">Development</h5>
-                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                   Full-Stack Web Development, Scalable Architecture.
-                 </p>
-               </div>
-               <div className="flex flex-col items-center">
-                 <div className="p-4 bg-purple-100 dark:bg-purple-900/30 rounded-2xl mb-4 text-purple-600 dark:text-purple-400">
-                   <Rocket size={32} />
-                 </div>
-                 <h5 className="font-bold mb-2 dark:text-white">Emerging Tech</h5>
-                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                   AI & VR Integration, Space-Tech Exploration.
-                 </p>
-               </div>
-               <div className="flex flex-col items-center">
-                 <div className="p-4 bg-emerald-100 dark:bg-emerald-900/30 rounded-2xl mb-4 text-emerald-600 dark:text-emerald-400">
-                   <ShieldCheck size={32} />
-                 </div>
-                 <h5 className="font-bold mb-2 dark:text-white">Security & Insights</h5>
-                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                   Cybersecurity Analysis, Data Analytics, Business Strategy.
-                 </p>
-               </div>
-               <div className="flex flex-col items-center">
-                 <div className="p-4 bg-orange-100 dark:bg-orange-900/30 rounded-2xl mb-4 text-orange-600 dark:text-orange-400">
-                   <Users size={32} />
-                 </div>
-                 <h5 className="font-bold mb-2 dark:text-white">Leadership</h5>
-                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                   Digital Literacy, Inclusive Tech, STEM Mentorship.
-                 </p>
-               </div>
-             </div>
-           </motion.div>
     </div>
   )
 }
