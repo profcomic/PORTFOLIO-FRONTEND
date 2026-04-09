@@ -30,7 +30,7 @@ const About = () => {
       color: "from-orange-500 to-red-500"
     },
     {
-      category: "Cybersecurity",
+      category: "Entry Level Cybersecurity",
       icon: Server,
       technologies: ["Network Security", "Penetration Testing", "Security Analysis", "Risk Assessment", "Compliance"],
       color: "from-red-500 to-pink-500"
@@ -38,11 +38,11 @@ const About = () => {
   ]
 
   const experience = [
-    {
-      title: "Full Stack Developer",
-      company: "Phroneo Spectacular Space",
-      period: "2024 - Present",
-      description: "Developing scalable web applications using modern technologies and best practices and intergration of AI & VR for Space exporation."
+     {
+      title: "ICT Instructor & Supervisor",
+      company: "Unik Driving School LTD HQ - Msa",
+      period: "April, 1st 2026 - Present",
+      description: "I oversee digital operations and technical training, ensuring the seamless integration of technology within professional environments."
     },
     {
       title: "Freelanced Techie",
@@ -50,6 +50,38 @@ const About = () => {
       period: "2025 - Present",
       description: "Creating responsive websites and contributed to various client projects encompassing Design, Data and General technological solutions."
     }
+    {
+      title: "Full Stack Developer",
+      company: "Phroneo Spectacular Space",
+      period: "2024 - Present",
+      description: "Developing scalable web applications using modern technologies and best practices and intergration of AI & VR for Space exporation."
+    },
+    {
+      title: "Volunteer",
+      company: "Taifa Teule Network - Nrb",
+      period: "September, 2024 - Present",
+      description: "I serve as a mentor and facilitator for emerging leaders, guiding them through leadership development and community impact strategies. 
+      My contribution extends into the Communications Department, where I volunteer my technical expertise in Graphic Design and Video Editing to craft 
+      compelling visual narratives that amplify the network's mission. By merging leadership mentorship with digital storytelling, 
+      I help bridge the gap between visionary ideas and impactful community engagement."
+    },
+    {
+      title: "Tech Dept Volunteer",
+      company: "Swahilipot Hub Foundation - Msa",
+      period: "April, 2024 - Present",
+      description: "I leverage my "Multicore" technical background to foster a vibrant innovation ecosystem by 
+        providing hands-on mentorship in software & Website development and general tech .I play a key role in facilitating technical 
+        workshops that drive digital literacy while supporting the hub’s infrastructure to ensure a seamless environment for community members."
+    },
+    {
+      title: "Assistant Office Administrator - Internship",
+      company: "Silverfox Lotella  - Msa",
+      period: "June, 2023 - September, 2023",
+      description: "In this role, I streamlined office operations by managing administrative workflows, client communications, and detailed documentation. 
+      Leveraging my background in Business Management, I ensured organizational efficiency and supported the management team in maintaining high service 
+      standards within a fast-paced environment."
+    },
+
   ]
 
   return (
@@ -68,6 +100,7 @@ const About = () => {
           Also a relentless trier of everything—a trait that drives my "Multicore" approach to technology. 
           My work thrives at the intersection of Full-Stack Development, Data Analytics, and Cybersecurity, 
           all fueled by a deep-seated obsession with AI-VR and Space Exploration.
+          
         </p>
       </motion.div>
 
