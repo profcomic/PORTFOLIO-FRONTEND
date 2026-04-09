@@ -61,17 +61,17 @@ const About = () => {
       company: "Taifa Teule Network - Nrb",
       period: "September, 2024 - Present",
       description: "I serve as a mentor and facilitator for emerging leaders, guiding them through leadership development and community impact strategies. 
-      My contribution extends into the Communications Department, where I volunteer my technical expertise in Graphic Design and Video Editing to craft 
-      compelling visual narratives that amplify the network's mission. By merging leadership mentorship with digital storytelling, 
-      I help bridge the gap between visionary ideas and impactful community engagement."
+        My contribution extends into the Communications Department, where I volunteer my technical expertise in Graphic Design and Video Editing to craft 
+        compelling visual narratives that amplify the network's mission. By merging leadership mentorship with digital storytelling, 
+        I help bridge the gap between visionary ideas and impactful community engagement."
     },
     {
       title: "Tech Dept Volunteer",
       company: "Swahilipot Hub Foundation - Msa",
       period: "April, 2024 - Present",
       description: "I leverage my "Multicore" technical background to foster a vibrant innovation ecosystem by 
-        providing hands-on mentorship in software & Website development and general tech .I play a key role in facilitating technical 
-        workshops that drive digital literacy while supporting the hub’s infrastructure to ensure a seamless environment for community members."
+      providing hands-on mentorship in software & Website development and general tech .I play a key role in facilitating technical 
+      workshops that drive digital literacy while supporting the hub’s infrastructure to ensure a seamless environment for community members."
     },
     {
       title: "Assistant Office Administrator - Internship",
