@@ -75,7 +75,8 @@ const Hero: React.FC = () => {
               
               <p className="text-emerald-400 text-lg mb-2">$ describe --role</p>
               <p className="text-slate-300 text-xl md:text-2xl leading-relaxed mb-6">
-                Space Enthusiast | Fullstack Developer | Creative Professional | Digital Ambassador | Orchestrator
+                Space Enthusiast | Fullstack Developer | Creative Professional | Digital Ambassador | Orchestrator | Space Enthusiast 
+                | AI-VR Enthusiast |
               </p>
               
               <p className="text-emerald-400 text-sm mb-2">$ describe --stack</p>
