@@ -215,27 +215,105 @@ const About = () => {
           </div>
         </div>
       </motion.div>
-      {/* Personal Interests */}
+      {/* Beyond Code */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.6 }}
-        className="mt-20 text-center"
+        className="mt-20"
       >
-        <h3 className="text-2xl font-bold mb-8 text-slate-800 dark:text-slate-200">
+        <h3 className="text-2xl font-bold mb-12 text-center text-slate-800 dark:text-slate-200">
           Beyond Code
         </h3>
-        <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-          When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
-          enjoying outdoor activities, or reading about the latest trends in AI and machine learning. 
-          I believe in continuous learning and staying curious about the world around us.
+        
+        <div className="max-w-4xl mx-auto space-y-12">
+          {/* Work Continuation */}
+          <div className="glass-morphism rounded-xl p-6 border border-white/20">
+            <h4 className="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-200 flex items-center">
+              <span className="mr-2">💻</span> When Terminal Closes
+            </h4>
+            <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+              My work continues at the intersection of innovation and impact. As a Learning Architect and STEM Ambassador, I am dedicated to bridging the digital divide by designing human-centered 
+              solutions and transformative learning experiences. I thrive on continuous curiosity—whether exploring AI trends, contributing to open-source, or architecting secure systems.
+            </p>
+          </div>
 
-          Beyond the screen, I serve as a Learning Architect and STEM Ambassador committed to bridging the 
-          digital divide. Whether I am architecting secure web applications, extracting data-driven insights, 
-          or designing transformative learning experiences, I focus on building human-centered solutions that 
-          are unequivocally impactful.
-        </p>
+          {/* Creative Soul */}
+          <div className="glass-morphism rounded-xl p-6 border border-white/20">
+            <h4 className="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-200 flex items-center">
+              <span className="mr-2">🖋️</span> The Creative Soul
+            </h4>
+            <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+              I am a writer at heart, operating under the moniker "When Silent Pen Meets Professor." From poetry and novels to motivational reflections, I view writing as a borderless sanctuary where 
+              I turn life's encounters into stories that aim to make the world a better place...my writing pads sometimes get tired of the things I pour out...
+            </p>
+          </div>
+
+          <h4 className="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-200 flex items-center">
+              <span className="mr-2">📚</span> When not doing these nerdy stuffs...
+            </h4>
+
+          {/* Harmony & Movement */}
+          <div className="glass-morphism rounded-xl p-6 border border-white/20">
+            <h4 className="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-200 flex items-center">
+              <span className="mr-2">🎵</span> Harmony & Movement
+            </h4>
+            <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+              Music is my secondary language. You'll find me:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-600 dark:text-slate-400">
+              <div className="flex items-start">
+                <span className="mr-2">🎤</span>
+                <div>
+                  <strong>Vocalizing:</strong> Lending my voice to choir and exploring new ranges.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <span className="mr-2">🎹</span>
+                <div>
+                  <strong>Instrumental:</strong> Behind the piano or drums, with a growing interest in  strings.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <span className="mr-2">💃</span>
+                <div>
+                  <strong>In Motion:</strong> Channeling my inner MJ—dance is a constant rhythm in my mind....dancing in the mind..
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Nature & Exploration */}
+          <div className="glass-morphism rounded-xl p-6 border border-white/20">
+            <h4 className="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-200 flex items-center">
+              <span className="mr-2">🌊</span> Nature & Exploration
+            </h4>
+            <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+              I describe myself as an ambivert with the depth of an ocean—alternating between quiet reflection and powerful drive. I recharge through:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-600 dark:text-slate-400">
+              <div className="flex items-start">
+                <span className="mr-2">🏞️</span>
+                <div>
+                  <strong>The Great Outdoors:</strong> Finding peace and relief in natural landscapes.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <span className="mr-2">🌍</span>
+                <div>
+                  <strong>Digital & Physical Travel:</strong> Immersing myself in new cultures or expansive worlds of video games.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <span className="mr-2">😄</span>
+                <div>
+                  <strong>Humor:</strong> Believing that a well-timed joke is just as essential as a clean line of code.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </motion.div>
            {/* Core Expertise */}
            <motion.div
