@@ -94,11 +94,6 @@ const About = () => {
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">About Me</h2>
-          <div className="items-center flex flex-wrap gap-2 justify-center">
-              <span className="px-3 py-1 bg-green-900/30 border border-green-500/50 text-green-400 rounded-md text-sm font-medium">
-                Bridging the stars and the digital frontier through a 'Multicore' approach to technology.
-              </span>
-          </div>
         <p className="text-slate-600 dark:text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed">
           I'm a multi-disciplinary professional and a relentless explorer of the "next." 
           As the Founder of Phroneo Spectacular Space, I operate at the intersection of Full-Stack Development, 

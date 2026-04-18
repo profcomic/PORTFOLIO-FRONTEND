@@ -6,7 +6,29 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'ANTHONNEY MWANZAH - PROFESSOR',
-  description: 'Building scalable systems with Python & TypeScript. Expert in Django, Next.js, Angular, Graphic Design, Data Science, and Cybersecurity.',
+  description: 'Nerd by nature',
+  icons: {
+    icon: '/phroneo-logo.jpg',
+    apple: '/phroneo-logo.jpg',
+    shortcut: '/phroneo-logo.jpg',
+  },
+  openGraph: {
+    title: 'ANTHONNEY MWANZAH - PROFESSOR',
+    description: 'Nerd by nature',
+    url: 'https://your-domain.com',
+    siteName: 'ANTHONNEY PORTFOLIO',
+    images: [
+      {
+        url: '/phroneo-logo.jpg',
+        width: 1200,
+        height: 1200,
+        alt: 'ANTHONNEY MWANZAH - PROFESSOR',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 }
 
 export default function RootLayout({
