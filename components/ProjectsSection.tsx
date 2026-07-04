@@ -33,7 +33,7 @@ const ProjectsSection = () => {
             github_url: "https://github.com/profcomic/HARNESSERS-NETWORK",
             live_demo: "https://harnessers-hub.vercel.app/",
             image: "/api/placeholder/400/300",
-            project_date: "2024-01-15",
+            project_date: "2026-06-15",
             created_at: "2026-06-15T10:00:00Z",
             updated_at: "2026-06-15T10:00:00Z"
           },
@@ -45,9 +45,9 @@ const ProjectsSection = () => {
             github_url: "https://github.com/pofcomic/floqpulse",
             live_demo: "https://floqpulse.com",
             image: "/api/placeholder/400/300",
-            project_date: "2024-02-20",
-            created_at: "2025-12-20T14:30:00Z",
-            updated_at: "2025-12-20T14:30:00Z"
+            project_date: "2026-02-20",
+            created_at: "2026-12-20T14:30:00Z",
+            updated_at: "2026-12-20T14:30:00Z"
           },
           {
             id: 3,
@@ -57,9 +57,9 @@ const ProjectsSection = () => {
             github_url: "https://github.com/yourusername/blog-platform",
             live_demo: "https://blog-demo.com",
             image: "/api/placeholder/400/300",
-            project_date: "2024-03-10",
-            created_at: "2024-03-10T09:15:00Z",
-            updated_at: "2024-03-10T09:15:00Z"
+            project_date: "2026-03-10",
+            created_at: "2026-03-10T09:15:00Z",
+            updated_at: "2026-03-10T09:15:00Z"
           }
         ])
         setLoading(false)
