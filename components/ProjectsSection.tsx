@@ -32,7 +32,7 @@ const ProjectsSection = () => {
             tech_stack: ["Next.js"],
             github_url: "https://github.com/profcomic/HARNESSERS-NETWORK",
             live_demo: "https://harnessers-hub.vercel.app/",
-            image: "/api/placeholder/400/300",
+            image: "https://api.microlink.io/?url=https://harnessers-hub.vercel.app/&screenshot=true&embed=screenshot.url",
             project_date: "2026-06-15",
             created_at: "2026-06-15T10:00:00Z",
             updated_at: "2026-06-15T10:00:00Z"
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
             tech_stack: ["Django"],
             github_url: "https://github.com/pofcomic/floqpulse",
             live_demo: "https://floqpulse.com",
-            image: "/api/placeholder/400/300",
+            image: "https://api.microlink.io/?url=https://github.com/pofcomic/floqpulse/&screenshot=true&embed=screenshot.url",
             project_date: "2026-02-20",
             created_at: "2026-12-20T14:30:00Z",
             updated_at: "2026-12-20T14:30:00Z"
@@ -54,9 +54,9 @@ const ProjectsSection = () => {
             title: "Blog Platform",
             description: "A modern blogging platform with markdown support, SEO optimization, and social media integration.",
             tech_stack: ["Flask", "Python", "SQLite", "Bootstrap"],
-            github_url: "https://github.com/yourusername/blog-platform",
+            github_url: "https://github.com/profcomic",
             live_demo: "https://blog-demo.com",
-            image: "/api/placeholder/400/300",
+            image: "https://api.microlink.io/?url=https://github.com/profcomic/&screenshot=true&embed=screenshot.url",
             project_date: "2026-03-10",
             created_at: "2026-03-10T09:15:00Z",
             updated_at: "2026-03-10T09:15:00Z"
