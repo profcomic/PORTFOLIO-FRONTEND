@@ -38,15 +38,6 @@ const About = () => {
   ]
 
   const experience = [
-<<<<<<< HEAD
-=======
-     {
-      title: "ICT Instructor & Supervisor",
-      company: "Unik Driving School LTD HQ - Msa",
-      period: "April, 1st 2026 - Present",
-      description: "I oversee digital operations and technical training, ensuring the seamless integration of technology within professional environments."
-    },
->>>>>>> 6117f1010bab8f1fc30eb3468db08529bda271a4
     {
       title: "Freelancer Techie",
       company: "Remote",
@@ -69,21 +60,18 @@ const About = () => {
         I help bridge the gap between visionary ideas and impactful community engagement."
     },
     {
-<<<<<<< HEAD
-      title: "ICT Instructor & Supervisor",
-      company: "Unik Driving School LTD HQ - Msa",
-      period: "April, 1st 2026 - June, 1st 2026",
-      description: "I oversee digital operations and technical training, ensuring the seamless integration of technology within professional environments."
-    },
-    {
-=======
->>>>>>> 6117f1010bab8f1fc30eb3468db08529bda271a4
       title: "Tech Dept Volunteer",
       company: "Swahilipot Hub Foundation - Msa",
       period: "April, 2024 - Present",
       description: "I leverage my 'Multicore' technical background to foster a vibrant innovation ecosystem by \
       providing hands-on mentorship in software & Website development and general tech .I play a key role in facilitating technical \
       workshops that drive digital literacy while supporting the hub's infrastructure to ensure a seamless environment for community members."
+    },
+    {
+      title: "ICT Instructor & Supervisor",
+      company: "Unik Driving School LTD HQ - Msa",
+      period: "April, 1st 2026 - June, 1st 2026",
+      description: "I oversee digital operations and technical training, ensuring the seamless integration of technology within professional environments."
     },
     {
       title: "Assistant Office Administrator - Internship",
